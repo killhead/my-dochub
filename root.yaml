@@ -1,1 +1,6 @@
-
+docs:
+  welcome:
+    type: markdown
+    source: welcome.md
+    location: /Главная страница
+    title: Главная страница
