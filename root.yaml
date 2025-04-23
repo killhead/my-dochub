@@ -2,5 +2,10 @@ docs:
   welcome:
     type: markdown
     source: welcome.md
-    location: /Главная страница
+    location: /test/Главная страница
     title: Главная страница
+  doc-wys:
+    type: jodit
+    source: doc-wys.wyg
+    location: /WYSIWIG с котиком
+    title: WYSIWIG с котиком
