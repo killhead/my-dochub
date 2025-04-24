@@ -3,6 +3,14 @@ components:
     title: Веб-сайт
     entity: component
 
+  website.back.auth:
+    title: Сервис авторизации
+    entity: component
+
+  website.back.logging:
+    title: Сервис логирования
+    entity: component
+    
   website.front:
     title: Фронт сайта
     entity: component
@@ -22,14 +30,6 @@ components:
         direction: -->
         title: логи сервиса
 
-  website.back.auth:
-    title: Сервис авторизации
-    entity: component
-
-  website.back.logging:
-    title: Сервис логирования
-    entity: component
-
   website.admin:
     title: Админка
     entity: component
@@ -37,3 +37,5 @@ components:
       - id: website.back
         direction: -->
         title: запросы в бэк
+
+        
