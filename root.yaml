@@ -1,6 +1,7 @@
 imports:
   - https://alpha.dochub.info/archcode/_metamodel_/ceaf-app/dochub.yaml
   - components.yaml
+  - contexts.yaml
 
 docs:
   welcome:

@@ -1,0 +1,7 @@
+contexts:
+  website:
+    title: Архитектура веб-сайта
+    location: Архитектура веб-сайта
+    components: 
+      - website
+      - website.**
