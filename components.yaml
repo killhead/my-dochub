@@ -1,0 +1,39 @@
+components: 
+  website:
+    title: Веб-сайт
+    entity: component
+
+  website.front:
+    title: Фронт сайта
+    entity: component
+    links:
+      - id: website.back
+        direction: -->
+        title: запросы в бэк
+
+  website.back:
+    title: Бэкенд
+    entity: component
+    links:
+      - id: website.auth
+        direction: -->
+        title: запросы авторизации
+      - id: website.logging
+        direction: -->
+        title: логи сервиса
+
+  website.back.auth:
+    title: Сервис авторизации
+    entity: component
+
+  website.back.logging:
+    title: Сервис логирования
+    entity: component
+
+  website.admin:
+    title: Админка
+    entity: component
+    links:
+      - id: website.back
+        direction: -->
+        title: запросы в бэк
