@@ -1,11 +1,14 @@
+imports:
+  - https://alpha.dochub.info/archcode/_metamodel_/ceaf-app/dochub.yaml
+
 docs:
   welcome:
     type: markdown
     source: welcome.md
-    location: /test/Главная страница
+    location: Главная страница
     title: Главная страница
-  doc-wys:
-    type: jodit
-    source: doc-wys.wyg
-    location: /WYSIWIG с котиком
-    title: WYSIWIG с котиком
+  rules:
+    type: markdown
+    source: rules.md
+    location: /Документы/Правила репозитория
+    title: Правила репозитория
