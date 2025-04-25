@@ -1,0 +1,8 @@
+dochuber:
+  contexts:
+    global:
+      dochub.statistic.docs:
+        source: > # Генерируем информацию о компонентах веб-сайта
+          (
+            (components.[?(@.id =~ /.*website.*/)])
+          )
